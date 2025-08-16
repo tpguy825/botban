@@ -19,7 +19,7 @@ Bun.serve({
 			if (pathname === "/")
 				return json(
 					400,
-					`{"error":"No IP address provided, please try again with an IP. (e.g. ${origin}/1.1.1.1). You can find your IP address by visiting https://icanhazip.com"}`,
+					`{"error":"No IP address provided, please try again with an IP. (e.g. ${origin}/<ipv4/6 addr>). You can find your IP address by visiting https://icanhazip.com"}`,
 				);
 			const res = ipdb.get(pathname.slice(1));
 			return res ? json(200, res) : json(404, '{"error":"IP not found"}');
