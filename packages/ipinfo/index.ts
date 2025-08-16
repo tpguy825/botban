@@ -9,7 +9,7 @@ const rawipdb = await fetch(
 
 const ipdb = new Reader<CountryResponse>(rawipdb);
 
-const port = 48292; // change in Dockerfile too
+const port = 48292; // change in Dockerfile and docker-compose.yml too
 
 Bun.serve({
 	port,

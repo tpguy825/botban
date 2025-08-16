@@ -1,15 +1,7 @@
 # ipinfo
 
-To install dependencies:
+Extremely basic service to convert ip addresses to countries
 
-```bash
-bun install
-```
+Uses this data: [geolite2-country](https://github.com/sapics/ip-location-db/tree/main/geolite2-country-mmdb)
 
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.19. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+Public instance available at: [https://ip.tpgy.uk](https://ip.tpgy.uk)

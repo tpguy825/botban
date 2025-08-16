@@ -1,0 +1,9 @@
+services:
+    botban_ipinfo:
+        container_name: botban_ipinfo
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "48292:48292"
+        restart: unless-stopped
