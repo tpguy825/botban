@@ -1,15 +1,13 @@
 {
-  "name": "ipinfo",
-  "module": "index.ts",
-  "type": "module",
-  "private": true,
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
-  },
-  "dependencies": {
-    "mmdb-lib": "^3.0.1"
-  }
+    "name": "ipinfo",
+    "module": "index.ts",
+    "type": "module",
+    "private": true,
+    "devDependencies": {
+        "@types/bun": "latest",
+        "typescript": "^5.9.2"
+    },
+    "dependencies": {
+        "mmdb-lib": "^3.0.1"
+    }
 }

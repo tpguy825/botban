@@ -1,8 +1,7 @@
 {
-	"name": "my-monorepo",
-	"private": true,
-	"workspaces": [
-		"packages/*"
-	]
+    "name": "my-monorepo",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ]
 }
-
